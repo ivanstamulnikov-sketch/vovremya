@@ -1,6 +1,6 @@
 {
-  "name": "Мои ТСР",
-  "short_name": "Мои ТСР",
+  "name": "Мой ТСР",
+  "short_name": "Мой ТСР",
   "description": "Сроки ТСР под контролем",
   "lang": "ru",
   "start_url": "./",
