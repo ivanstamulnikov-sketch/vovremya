@@ -1,5 +1,5 @@
 /* Офлайн-кэш веб-версии. Меняйте VERSION при каждом выпуске. */
-const VERSION = 'vovremya-0.18.0';
+const VERSION = 'moi-tsr-0.19.0';
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(VERSION).then((c) => c.addAll(['./', './manifest.webmanifest', './icon-192.png'])).then(() => self.skipWaiting()));
 });
